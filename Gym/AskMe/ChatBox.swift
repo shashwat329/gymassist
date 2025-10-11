@@ -16,7 +16,7 @@ struct Message: Identifiable {
 struct ChatBox: View {
    
     let welcomeMsg: String = """
-    Welcome to Healthify.
+    Welcome to NexusMed.
     How may I help you?
     """
     @State private var userInput: String = ""
@@ -32,8 +32,6 @@ struct ChatBox: View {
             VStack(alignment: .leading) {
                 ScrollView {
                     CustomTextField(message: welcomeMsg, user: false)
-//                    CustomTextField(message: , user: false)
-                    
                     ForEach(messageHistory) { msg in
                         CustomTextField(message: msg.text, user: msg.user)
                     }

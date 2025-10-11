@@ -36,7 +36,13 @@ struct ContentView: View {
                 .tag("message.fill")
                 .tabItem {
                     Image(systemName: "message.fill")
-                    Text("Charts")
+                    Text("Chats")
+                }
+            AccountView()
+                .tag("account")
+                .tabItem {
+                    Image(systemName: "person.circle.fill")
+                    Text("Account")
                 }
         }
     }

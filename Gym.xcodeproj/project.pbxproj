@@ -26,6 +26,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B0ED0C52E9A370E00220211 /* New Folder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
 		6B4668332DA1018800AD6690 /* Gym */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -53,6 +58,7 @@
 				6B47ECAA2DB001A4004DAB28 /* Config.xcconfig */,
 				6B4668332DA1018800AD6690 /* Gym */,
 				6B4668322DA1018800AD6690 /* Products */,
+				6B0ED0C52E9A370E00220211 /* New Folder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +86,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				6B0ED0C52E9A370E00220211 /* New Folder */,
 				6B4668332DA1018800AD6690 /* Gym */,
 			);
 			name = Gym;
@@ -280,7 +287,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gym/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Healthify;
+				INFOPLIST_KEY_CFBundleDisplayName = NexusMed;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all features of the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +323,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gym/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Healthify;
+				INFOPLIST_KEY_CFBundleDisplayName = NexusMed;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all features of the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
